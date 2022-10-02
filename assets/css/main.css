@@ -1,0 +1,151 @@
+body {
+  background: #cccccc;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+page[size="A4"] {
+  background: white;
+  width: 21cm;
+  height: 29.7cm;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  -webkit-box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+
+@media print {
+  body,
+  page[size="A4"] {
+    margin: 0;
+    -webkit-box-shadow: 0;
+            box-shadow: 0;
+  }
+}
+
+h3 {
+  margin-left: 40px;
+  display: inline-block;
+  font-size: 25px;
+}
+
+h2 {
+  display: inline-block;
+  font-family: cursive;
+  font-weight: 400;
+}
+
+img {
+  width: 160px;
+  height: 160px;
+  border: 1px solid black;
+}
+
+.profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.description {
+  margin-left: 5px;
+  margin-top: -19px;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.date {
+  margin-left: 30px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+input[type="date"] {
+  margin-left: 70px;
+}
+
+.english-level {
+  margin-left: 30px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+input[type="radio"] {
+  margin-top: 5px;
+}
+
+.skills h4 {
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.list {
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.list input[type="text"] {
+  size: 50px;
+}
+
+.list button {
+  padding: 2px 30px;
+}
+
+.lang,
+.salary {
+  margin-left: 30px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.lang label,
+.salary label {
+  font-weight: 700;
+}
+
+.lang input[type="text"],
+.lang select,
+.salary input[type="text"],
+.salary select {
+  margin-left: 30px;
+}
+
+.other-skills {
+  margin-left: 30px;
+  font-size: 18px;
+}
+
+.other-skills h4 {
+  font-size: 22px;
+}
+
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin-left: 30px;
+}
+
+table {
+  width: 75%;
+}
+
+.table h4 {
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.table .save {
+  margin-left: 30px;
+  margin-top: 10px;
+  padding: 5px 20px;
+  font-size: large;
+}
+/*# sourceMappingURL=main.css.map */
